@@ -1,0 +1,93 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: rgb(238, 238, 238) url(http://l.ruby-china.org/assets/bg-975c18b493707c6154f4904a5117af8c.png) bottom left repeat;
+}
+body {
+    background: none;
+}
+
+.navbar-fixed-top {
+    position: static;
+    right: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.navbar-fixed-top h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    margin-right: 10px;
+    width: 157px;
+    float: left;
+}
+.navbar-fixed-top h3 a {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    width: 150px;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{
+    background-color: #2B2B2B;
+    background-image: -webkit-linear-gradient(top, rgb(51, 51, 51), rgb(34, 34, 34));
+}
+
+.container {
+width: 960px;
+}
+.container {
+margin-left: auto;
+margin-right: auto;
+}
+#main {
+position: relative;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.container-fluid > .content {
+    margin-left: 0;
+    margin-right: 260px;
+}
+
+.box_gray {
+    background: whiteSmoke;
+}
+.box {
+    background-color: white;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.05);
+}
+
+.container-fluid > .sidebar {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 240px;
+}
+
+.footer {
+    border-top: 0;
+    min-width: 940px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 0;
+    text-shadow: 0 1px 0 white;
+}
+/* general class */
+.float_right {
+    float: right;
+}
+
+.float_left {
+    float: left;
+}

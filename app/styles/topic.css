@@ -1,0 +1,70 @@
+#topic_show h1 {
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+#topic_show .body {
+    padding-top: 6px;
+    border-top: 1px solid rgb(236, 230, 230);
+}
+
+.topics .topic .info {
+    color: rgb(187, 187, 187);
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+#replies {
+    padding-bottom: 0px;
+}
+
+#replies .reply {
+    border-top: 1px solid rgb(221, 221, 221);
+    padding: 8px 10px;
+    margin: 0 -10px;
+}
+
+#replies .reply .face {
+    padding-right: 8px;
+    width: 48px;
+    margin-left: 0;
+}
+
+#replies .reply .infos {
+    padding-left: 58px;
+}
+
+#replies .reply .info {
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+    height: 20px;
+}
+
+.body {
+    position: relative;
+    line-height: 160%;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+#reply.form {
+    position: relative;
+}
+
+#reply.form textarea {
+    width: 560px;
+    margin-bottom: 10px;
+}
+
+#reply.form .submit_buttons {
+    position: absolute;
+    right: 10px;
+    top: 42px;
+}
+
+.reply .body>p {
+    margin: auto;
+}
